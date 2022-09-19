@@ -1,0 +1,410 @@
+//1. Realizar un programa que permita mostrar en pantalla el mensaje “UNIVERSIDAD PERUANA LOS ANDES”
+package prog1;
+public class Ejercicio1 {  
+    //GASPAR PAUCAR WIBER ANDRIHU
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("UNIVERSIDAD PERUANA LOS ANDES");
+     }
+    }
+
+
+
+//2. Realizar un programa que permita mostrar en pantalla tu nombre y apellido
+package prog1;
+public class Ejercicio2 {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("Mi nombre es:");
+        System.out.println("Wilber Andrihu Gaspar Paucar");
+    }
+}
+
+
+
+//3. Realizar un programa que permita calcular la suma de 5 números
+package prog1;
+import java.util.Scanner;
+public class Ejercicio3{
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //variables
+        float n1,n2,n3,n4,n5,s;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Numero 1:");
+        n1=teclado.nextInt();
+        System.out.println("Numero 2:");
+        n2=teclado.nextInt();
+        System.out.println("Numero 3:");
+        n3=teclado.nextInt();
+        System.out.println("Numero 4:");
+        n4=teclado.nextInt();
+        System.out.println("Numero 5:");
+        n5=teclado.nextInt();
+        //proceso
+        s=n1+n2+n3+n4+n5;
+        //SALIDA
+        System.out.println("Suma:"+s);
+    }
+}
+
+
+
+//4. Realizar un programa que calcule el perímetro y área de las siguientes figuras geométricas:
+//TRIÁNGULO
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4triangulo {
+    public static void main(String[] args) {
+        //GASPAR PAUCAR WILBER ANDRIHU
+        //VARIABLES
+        float b,h,l,m,n,p,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte la base:");
+        b=teclado.nextInt();
+        System.out.println("Inserte la altura:");
+        h=teclado.nextInt();
+        System.out.println("Inserte el lado 1:");
+        l=teclado.nextInt();
+        System.out.println("Inserte el lado 2:");
+        m=teclado.nextInt();
+        System.out.println("Inserte el lado 3:");
+        n=teclado.nextInt();
+        
+        //PROCESO
+        p=l+m+n; 
+        a=b*h/2;
+        //SALIDA
+        System.out.println("El perímetro del triángulo es:"+p);
+        System.out.println("El área del triángulo es:"+a);
+    }
+}
+
+
+
+//CUADRADO
+
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4cuadrado {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float l,p,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte el lado del cuadrado:");
+        l=teclado.nextInt();
+        
+        //PROCESO
+        p=l*4; 
+        a=l*l;
+        //SALIDA
+        System.out.println("El perímetro del cuadrado es:"+p);
+        System.out.println("El área del cuadrado es:"+a);
+    }
+}
+
+
+
+//RECTÁNGULO
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4rectangulo {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float b,h,p,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte la base del rectángulo:");
+        b=teclado.nextInt();
+        System.out.println("Inserte la altura del rectángulo:");
+        h=teclado.nextInt();
+        //PROCESO
+        p=2*b+2*h; 
+        a=b*h;
+        //SALIDA
+        System.out.println("El perímetro del rectángulo es:"+p);
+        System.out.println("El área del rectángulo es:"+a);
+    }
+}
+
+
+
+//ROMBO
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4rombo {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float l,dm,dn,p,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte el lado del rombo:");
+        l=teclado.nextInt();
+        System.out.println("Inserte diagonal mayor del rombo:");
+        dm=teclado.nextInt();
+        System.out.println("Inserte diagonal menor del rombo:");
+        dn=teclado.nextInt();
+        //PROCESO
+        p=4*l; 
+        a=dm*dn/2;
+        //SALIDA
+        System.out.println("El perímetro del rombo es:"+p);
+        System.out.println("El área del rombo es:"+a);
+    }
+}
+
+
+
+//ROMBOIDE
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4romboide {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float b,h,p,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte la base del romboide:");
+        b=teclado.nextInt();
+        System.out.println("Inserte la altura del romboide:");
+        h=teclado.nextInt();
+        //PROCESO
+        p=2*b+2*h; 
+        a=b*h;
+        //SALIDA
+        System.out.println("El perímetro del romboide es:"+p);
+        System.out.println("El área del romboide es:"+a);
+    }
+}
+
+
+
+//TRAPECIO
+package prog1;
+import java.util.Scanner;
+public class Ejercicio4trapecio {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float l,m,n,o,v,b,h,p,ñ,a;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte el lado 1 del trapecio:");
+        l=teclado.nextInt();
+        System.out.println("Inserte el lado 2 del trapecio:");
+        m=teclado.nextInt();
+        System.out.println("Inserte el lado 3 del trapecio:");
+        n=teclado.nextInt();
+        System.out.println("Inserte el lado 4 del trapecio:");
+        o=teclado.nextInt();
+        System.out.println("Inserte la base menor del trapecio:");
+        v=teclado.nextInt();
+        System.out.println("Inserte la base mayor del trapecio:");
+        b=teclado.nextInt();
+        System.out.println("Inserte la altura del trapecio:");
+        h=teclado.nextInt();
+        //PROCESO
+        p=l+m+n+o; 
+        ñ=v+b;
+        a=h*ñ/2;
+        //SALIDA
+        System.out.println("El perímetro del trapecio es:"+p);
+        System.out.println("El área del trapecio es:"+a);
+    }
+} 
+
+
+//5. Realizar un programa que calcule el promedio de 5 notas ingresadas por teclado.
+package prog1;
+import java.util.Scanner;
+public class Ejercicio5 {
+    public static void main(String[] args) {
+        //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float n1,n2,n3,n4,n5,s,p;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte la primera nota:");
+        n1=teclado.nextInt();
+        System.out.println("Inserte la segunda nota:");
+        n2=teclado.nextInt();
+        System.out.println("Inserte la tercera nota:");
+        n3=teclado.nextInt();
+        System.out.println("Inserte la cuarta nota:");
+        n4=teclado.nextInt();
+        System.out.println("Inserte la quinta nota:");
+        n5=teclado.nextInt();
+        //PROCESO
+        s=n1+n2+n3+n4+n5;
+        p=s/5;
+        //SALIDA
+        System.out.println("El promedio de las notas ingresadas es:"+p);
+    }
+}
+
+
+
+//6. Realizar un programa que calcule la multiplicación de 5 números ingresados por teclado.
+package prog1;
+import java.util.Scanner;
+public class Ejercicio6 {
+    public static void main(String[] args) {
+    //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+        float n1,n2,n3,n4,n5,s;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte el primer número:");
+        n1=teclado.nextInt();
+        System.out.println("Inserte el segunda número:");
+        n2=teclado.nextInt();
+        System.out.println("Inserte el tercer número:");
+        n3=teclado.nextInt();
+        System.out.println("Inserte el cuarto número:");
+        n4=teclado.nextInt();
+        System.out.println("Inserte el quinto número:");
+        n5=teclado.nextInt();
+    //PROCESO
+        s=n1*n2*n3*n4*n5;
+     //SALIDA
+        System.out.println("La multiplicación de los numeros ingresados es:"+s);
+    }
+}
+
+
+
+//7. Realizar un programa que permita ingresar 10 números por teclado, el programa debe calcular la multiplicación entre la
+suma de los primeros 5 números y la suma de los 5 últimos números.
+package prog1;
+import java.util.Scanner;
+public class Ejercicio7 {
+    public static void main(String[] args) {
+        //GASPAR PAUCAR WILBER ANDRIHU
+    //VARIABLES
+       float n1,n2,n3,n4,n5,m1,m2,m3,m4,m5,s,s1,m;
+        Scanner teclado=new Scanner(System.in);
+        System.out.println("Inserte el primer número:");
+        n1=teclado.nextInt();
+        System.out.println("Inserte el segunda número:");
+        n2=teclado.nextInt();
+        System.out.println("Inserte el tercer número:");
+        n3=teclado.nextInt();
+        System.out.println("Inserte el cuarto número:");
+        n4=teclado.nextInt();
+        System.out.println("Inserte el quinto número:");
+        n5=teclado.nextInt();
+        System.out.println("Inserte el sexto número:");
+        m1=teclado.nextInt();
+        System.out.println("Inserte el séptimo número:");
+        m2=teclado.nextInt();
+        System.out.println("Inserte el octavo número:");
+        m3=teclado.nextInt();
+        System.out.println("Inserte el noveno número:");
+        m4=teclado.nextInt();
+        System.out.println("Inserte el décimo número:");
+        m5=teclado.nextInt();
+        //PROCESO
+        s=n1+n2+n3+n4+n5;
+        s1=m1+m2+m3+m4+m5;
+        m=s*s1;
+        //SALIDA
+        System.out.println("La suma de los 5 primeros números es:"+s);
+        System.out.println("La suma de los 5 últimos números es:"+s1);
+        System.out.println("La multiplicación entre la suma de los primeros 5 números y la suma de los 5 últimos números es:"+m);
+    }
+}
+
+
+
+//8. Calcular el área de un círculo sabiendo que pi = 3,14159265 A= pi x r2, sabiendo que r=5.
+package prog1;
+public class Ejercicio8 {
+    public static void main(String[] args) {
+        //GASPAR PAUCAR WILBER ANDRIHU
+        double ra,a;
+        double pi=3.14159265;
+        double r=5;
+        //PROCESO
+        ra=r*r;
+        a=pi*ra;
+        //SALIDA
+        System.out.println("El área del círculo es:"+a);
+    }
+}
+
+
+
+//9. Calcular la suma de las áreas de 3 círculos cuyos radios son 8.9, 6.7 y 7.9
+package prog1;
+public class Ejercicio9 {
+    public static void main(String[] args) {
+        //GASPAR PAUCAR WILBER ANDRIHU
+        double d1=8.9;
+        double d2=6.7;
+        double d3=7.9;
+        double pi=3.14159265;
+        double a1,a2,a3,r1,r2,r3,s;
+        //PROCESO
+        r1=d1*d1;
+        a1=pi*r1;
+        r2=d2*d2;
+        a2=pi*r2;
+        r3=d3*d3;
+        a3=pi*r3;
+        s=a1+a2+a3;
+        //SALIDA
+        System.out.println("La suma de las áreas de los 3 círculos es:"+s);
+    }
+}
+
+
+
+//10. Calcular la suma de las áreas de 8 círculos cuyos radios son 18.9, 16.7, 71.9, 4.6, 6.7, 5.6. 4.7y 10.
+package prog1;
+public class Ejercicio10 {
+    public static void main(String[] args) {
+        double d1=18.9;
+        double d2=16.7;
+        double d3=71.9;
+        double d4=4.6;
+        double d5=6.7;
+        double d6=5.6;
+        double d7=4.7;
+        double d8=10;
+        double pi=3.14159265;
+        double a1,a2,a3,a4,a5,a6,a7,a8,r1,r2,r3,r4,r5,r6,r7,r8,s;
+        //PROCESO
+        r1=d1*d1;
+        a1=pi*r1;
+        r2=d2*d2;
+        a2=pi*r2;
+        r3=d3*d3;
+        a3=pi*r3;
+        r4=d4*d4;
+        a4=pi*r4;
+        r5=d5*d5;
+        a5=pi*r5;
+        r6=d6*d6;
+        a6=pi*r6;
+        r7=d7*d7;
+        a7=pi*r7;
+        r8=d8*d8;
+        a8=pi*r8;
+        s=a1+a2+a3+a4+a5+a6+a7+a8;
+        //SALIDA
+        System.out.println("La suma de las áreas de los 3 círculos es:"+s);
+    }
+}
+
+
+
+//11. Programa que solicita ingresar un número favorito por teclado y luego el computador debe mostrar el mensaje “Tu
+número favorito es <número ingresado> ”.
+package prog1;
+import javax.swing.JOptionPane;
+public class Ejercicio11 {  
+        public static void main(String[] args) {
+            //GASPAR PAUCAR WILBER ANDRIHU
+        String e = JOptionPane.showInputDialog("Ingrese su número favorito:");
+        JOptionPane.showMessageDialog(null,"Su número favorito es:" +e);
+    }
+}
